@@ -6,4 +6,10 @@ $(document).ready(function () {
         $('.card-reveal').css('top', '100%');
     });
 });
-//
+
+function one() {
+    this.p=7; // this не задан явно, поэтому this является window
+}
+// one.p = 7;
+one();
+console.log(window.p);
