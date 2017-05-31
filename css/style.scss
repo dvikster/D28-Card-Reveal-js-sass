@@ -54,7 +54,7 @@ body{
   .card-reveal{
     border-radius: 0 0 2px 2px;
     font-size: 16px;
-    transition: 0.5s;
+    transition: all ease 0.5s;
     padding: 24px;
     position: absolute;
     background-color: $color-light;
