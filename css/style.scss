@@ -1,4 +1,7 @@
 $width-large:960px;
+$color-light:#ffffff;
+$color-links:#039be5;
+
 *{
   margin: 0;
   padding: 0;
@@ -13,7 +16,7 @@ body{
 }
 .card{
    position: relative;
-   background-color: #fff;
+   background-color: $color-light;
    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
    border-radius: 3px;
    margin: 50px auto;
@@ -39,7 +42,7 @@ body{
     border-radius: 0 0 2px 2px;
     font-size: 16px;
     a{
-      color: #039be5;
+      color: $color-links;
       text-decoration: none;
     }
   }
@@ -54,7 +57,7 @@ body{
     transition: 0.5s;
     padding: 24px;
     position: absolute;
-    background-color: #fff;
+    background-color: $color-light;
     width: 100%;
     overflow-y: auto;
     left: 0;
