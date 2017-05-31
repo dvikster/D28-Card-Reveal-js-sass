@@ -1,2 +1,2 @@
 # D28-Card-Reveal-js-sass
-v
+Card-Reveal-js-sass
